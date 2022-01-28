@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    int* p = &a;
+
+    cout<<*p<<endl;
+
+    int** q = &p;
+
+    cout<<&a<<endl;
+    // or using double pointer
+    cout<<*q<<endl;
+    cout<<**q<<endl;
+
+    return 0;
+}
